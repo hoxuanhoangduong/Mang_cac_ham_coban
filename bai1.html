@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="array"></p>
+<p id="newarray"></p>
+<script>
+    myColor = ["Red","White","Green","Black"];
+    document.getElementById('array').innerHTML = "mycolor = " + '"' + myColor + '"';
+    for (let i =0;i<myColor.length;i++){
+    document.getElementById('newarray').innerHTML += myColor[i] +" " ;
+    }
+</script>
+</body>
+</html>
